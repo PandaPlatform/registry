@@ -9,3 +9,7 @@ Thumbs.db
 
 # IDE-relative files and folders
 .idea
+
+# phpunit coverage
+.phpunit.cache
+coverage.xml
