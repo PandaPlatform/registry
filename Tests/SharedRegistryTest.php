@@ -12,13 +12,13 @@
 namespace Panda\Registry\Tests;
 
 use Panda\Registry\SharedRegistry;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class SharedRegistryTest
  * @package Panda\Registry\Tests
  */
-class SharedRegistryTest extends PHPUnit_Framework_TestCase
+class SharedRegistryTest extends TestCase
 {
     /**
      * @var SharedRegistry
@@ -28,7 +28,7 @@ class SharedRegistryTest extends PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
